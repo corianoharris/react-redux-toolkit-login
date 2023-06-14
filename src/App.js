@@ -28,7 +28,7 @@ function App() {
         {({ isSubmitting }) => (
           <Form>
             <Field type="text" name="username" />
-            <Field type="password" name="password" />
+            <Field type="password" name="password" autoComplete="off" />
             <button type="submit" disabled={isSubmitting}>
               Login
             </button>
